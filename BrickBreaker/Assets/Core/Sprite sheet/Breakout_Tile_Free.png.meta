@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: f72e5509793523442ab2a93dd9478176
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 894
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd7e3407b255249b29c98979fcff19
+      internalID: -1767843078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 894
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae268664d8a88c4a8d8ab7132df8f43
+      internalID: -830070918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 894
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec07a1ce865cf343949532301938959
+      internalID: -842683555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_3
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 959
+        width: 243
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50c4cda998ff804e8faa056a3453b43
+      internalID: -240774534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 894
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1ffeeedbe379d43a7c9770c75b35aa
+      internalID: -1714428471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce5aea5f430794eb7d675351e9409d
+      internalID: 1899266434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 764
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200193d91d627cc45a1f9e8443dee9e9
+      internalID: 708729686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 764
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4e4b110c7126743a8a21f07156580f
+      internalID: 216021220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_8
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 695
+        width: 245
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667366167aeece24baf1c2064191c7f3
+      internalID: 777015634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_9
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 770
+        width: 520
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f736b8414fa78438027fda7f79dc4c
+      internalID: 435550104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9ef77e9728514487034961631f658
+      internalID: -709290145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 634
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4457d9bd0bdd1cc489576cf263810ec2
+      internalID: 695894602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_12
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 634
+        width: 387
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886fd10d203ad90468d172d02cf6c85e
+      internalID: -138270506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_13
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 694
+        width: 245
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cba3a57f762a0e44ac3f90faed56899
+      internalID: -1892988752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_14
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 633
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f8b6f5597d6ec428f235cb351c963e
+      internalID: -393834846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f473e37db36c61c4aa93c5a2574a3320
+      internalID: -729779137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 504
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a5d007211b0f42b9c52cfc954f567
+      internalID: -1427157908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 504
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eca4b5cc48da44dbb1b3ece31f48d8
+      internalID: -810130301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_18
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 504
+        width: 383
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae653ece8416aa445b37d68ca5f090cb
+      internalID: 809912817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 504
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58702c7045db00b4dbe7cf2d8524df67
+      internalID: -605383580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222acd421237c874992093d9e85a15a2
+      internalID: 1264519040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_21
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 374
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1da92a339ca5349b5f09c45942cb57
+      internalID: -1814646342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 374
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc475ceeb9d0b4a84ca1d7268a4b55
+      internalID: 1292126545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_23
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 373
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac75cf81b62fd446ba7e980ae78f8cd
+      internalID: -1545798152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_24
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 374
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e24f6ef115d024fb7c095e18924aa3
+      internalID: 187962125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d64a4f900ed149b968854b2fe3a1c
+      internalID: -970458557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 244
+        width: 386
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9358c01db109a498f36282fa469018
+      internalID: -1657733870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_27
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 245
+        width: 386
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920f5b9bf06c1340950deb61a44bbef
+      internalID: 451812971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_28
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 629
+        width: 244
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc54a9cd935cb247b278f5b2c5ce8ef
+      internalID: -522443996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_29
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 243
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b1c007ee2e9f74ca811ce22832004d
+      internalID: 1274377440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7831fe076c0c20946bdd91f7cd1f9fce
+      internalID: 1336442591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 114
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04acca300088c084bb1af11135a76fa6
+      internalID: 2134266988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_32
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 114
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b20ab5105e0e864f8e5628f2ce538c3
+      internalID: -1670226425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_33
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 114
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ba766ed7105554dba19e1cb85d3305
+      internalID: 2025685452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_34
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 114
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd414b77d29ed4bb86f7fbf20a159d
+      internalID: 1895530823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Breakout_Tile_Free_11: 695894602
+      Breakout_Tile_Free_21: -1814646342
+      Breakout_Tile_Free_27: 451812971
+      Breakout_Tile_Free_18: 809912817
+      Breakout_Tile_Free_32: -1670226425
+      Breakout_Tile_Free_1: -830070918
+      Breakout_Tile_Free_9: 435550104
+      Breakout_Tile_Free_25: -970458557
+      Breakout_Tile_Free_7: 216021220
+      Breakout_Tile_Free_19: -605383580
+      Breakout_Tile_Free_14: -393834846
+      Breakout_Tile_Free_28: -522443996
+      Breakout_Tile_Free_23: -1545798152
+      Breakout_Tile_Free_4: -1714428471
+      Breakout_Tile_Free_30: 1336442591
+      Breakout_Tile_Free_34: 1895530823
+      Breakout_Tile_Free_15: -729779137
+      Breakout_Tile_Free_0: -1767843078
+      Breakout_Tile_Free_22: 1292126545
+      Breakout_Tile_Free_6: 708729686
+      Breakout_Tile_Free_8: 777015634
+      Breakout_Tile_Free_24: 187962125
+      Breakout_Tile_Free_33: 2025685452
+      Breakout_Tile_Free_20: 1264519040
+      Breakout_Tile_Free_10: -709290145
+      Breakout_Tile_Free_13: -1892988752
+      Breakout_Tile_Free_3: -240774534
+      Breakout_Tile_Free_29: 1274377440
+      Breakout_Tile_Free_16: -1427157908
+      Breakout_Tile_Free_26: -1657733870
+      Breakout_Tile_Free_12: -138270506
+      Breakout_Tile_Free_17: -810130301
+      Breakout_Tile_Free_5: 1899266434
+      Breakout_Tile_Free_2: -842683555
+      Breakout_Tile_Free_31: 2134266988
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
