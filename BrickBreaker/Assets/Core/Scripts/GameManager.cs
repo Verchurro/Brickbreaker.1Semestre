@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     {
         this.level = level;
         
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene("Level" + level);
+
     }
 }

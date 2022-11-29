@@ -27,4 +27,19 @@ public class Player : MonoBehaviour
         board = GetComponent<Rigidbody2D>();
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Ball ball = collision.gameObject.AddComponent<Ball>();
+        if (ball != null)
+        {
+            Vector3 playerPosition = this.transform.position;
+            Vector2 contactpoint = collision.GetContact(0).point;
+
+            float offset = playerPosition.x - contactpoint.x;
+            float width = collision.otherCollider.bounds.size.x / 2;
+
+            float currentAngle = Vector2.SignedAngle(Vector2.up, ball.rigidbody.velocity);
+        }
+    }
+
 }
