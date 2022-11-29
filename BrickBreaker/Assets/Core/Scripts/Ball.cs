@@ -4,13 +4,26 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    Rigidbody2D ball { get; set; }
+    public float speed = 500f;
+
+    private void SetRandomTrajectory()
     {
-        
+        Vector2 force = Vector2.zero;
+        force.x = Random.Range(-0.5f, 0.5f);
+        force.y = -1f;
+        ball.AddForce(force.normalized * speed);
+    }
+    private void Awake()
+    {
+        ball = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        Invoke(nameof(SetRandomTrajectory), 1f);
+    }
+
     void Update()
     {
         
