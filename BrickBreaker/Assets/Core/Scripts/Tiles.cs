@@ -1,34 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class Tiles : MonoBehaviour
 {
-    public Tilemap breakBricks;
+    public SpriteRenderer spriteRenderer { get; private set; }
+    public Sprite[] states;
+    public bool unbreakable;
+    public int health { get; private set; }
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
+        if (!unbreakable)
+        health = states.Length;
+        spriteRenderer.sprite = states[health - 1];
+    }
+
+    public void Hit()
+    {
+        if (unbreakable)
+        {
+            return;
+        }
+        
+        health--;
+
+        if (health <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            spriteRenderer.sprite = states[health - 1];
+        }
+
+        Debug.Log("um");
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        Debug.Log("Collision");
-        if (collision.gameObject.CompareTag("Ball"))
+        if (collision.gameObject.name == "Ball")
         {
-            Vector3 hitPosition = Vector3.zero;
-            foreach (ContactPoint2D hit in collision.contacts)
-            {
-                hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
-                hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
-                breakBricks.SetTile(breakBricks.WorldToCell(hit.point), null);
-                breakBricks.RefreshAllTiles();
-                Debug.Log("World");
-            }
-
-            Debug.Log("Hit");
+            Hit();
         }
+    }
 
-    }
-    private void Start()
-    {
-        breakBricks = GetComponent<Tilemap>();
-    }
 }

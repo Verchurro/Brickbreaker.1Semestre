@@ -13,6 +13,8 @@ public class Ball : MonoBehaviour
         force.x = Random.Range(-0.5f, 0.5f);
         force.y = -1f;
         ball.AddForce(force.normalized * speed);
+
+        Debug.Log ("ok");
     }
     private void Awake()
     {
@@ -24,8 +26,21 @@ public class Ball : MonoBehaviour
         Invoke(nameof(SetRandomTrajectory), 1f);
     }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        Debug.Log("Hit"+collision.gameObject.name,collision.gameObject);
+        var Tile = collision.gameObject.GetComponent<Tiles>();
+        if (Tile != null)
+        {
+            Tile.Hit();
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (ball.velocity.magnitude > speed)
+        {
+            ball.velocity = ball.velocity.normalized * speed;
+        }
     }
 }
