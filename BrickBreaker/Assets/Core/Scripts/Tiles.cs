@@ -6,8 +6,16 @@ public class Tiles : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer { get; private set; }
     public Sprite[] states;
-    public bool unbreakable;
     public int health { get; private set; }
+    public int points = 100;
+
+    public void ResetTiles()
+    {
+       this.gameObject.SetActive(true);
+        
+        health = states.Length;
+        spriteRenderer.sprite = states[health - 1];
+    }
 
     private void Awake()
     {
@@ -16,18 +24,12 @@ public class Tiles : MonoBehaviour
 
     private void Start()
     {
-        if (!unbreakable)
-        health = states.Length;
-        spriteRenderer.sprite = states[health - 1];
+        ResetTiles();
     }
 
     public void Hit()
     {
-        if (unbreakable)
-        {
-            return;
-        }
-        
+      
         health--;
 
         if (health <= 0)
@@ -39,7 +41,7 @@ public class Tiles : MonoBehaviour
             spriteRenderer.sprite = states[health - 1];
         }
 
-        Debug.Log("um");
+        FindObjectOfType<GameManager>().Hit(this);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -13,8 +13,14 @@ public class Ball : MonoBehaviour
         force.x = Random.Range(-0.5f, 0.5f);
         force.y = -1f;
         ball.AddForce(force.normalized * speed);
+    }
 
-        Debug.Log ("ok");
+    public void ResetBall()
+    {
+        this.transform.position = Vector2.zero;
+        ball.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+
+        Invoke(nameof(SetRandomTrajectory), 1f);
     }
     private void Awake()
     {
@@ -23,7 +29,7 @@ public class Ball : MonoBehaviour
 
     void Start()
     {
-        Invoke(nameof(SetRandomTrajectory), 1f);
+        ResetBall();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

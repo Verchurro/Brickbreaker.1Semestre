@@ -20,6 +20,12 @@ public class Player : MonoBehaviour
         position.y = -4.12f;
     }
 
+    public void ResetPlayer()
+    {
+        this.transform.position = new Vector2(0f, this.transform.position.y);
+        board.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+    }
+
     private void FixedUpdate()
     {
         board.MovePosition(position);
