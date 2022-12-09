@@ -71,12 +71,21 @@ public class GameManager : MonoBehaviour
     {
         this.score += tiles.points;
 
-       // if (Cleared())
+        if (Cleared())
         {
-            //LoadLevel(this.level + 1);
+            LoadLevel(this.level + 1);
         }
     }
-
-   // bool Cleared()
+       bool Cleared()
+    {
+        for (int i = 0; i < this.tiles.Length; i++)
+        {
+            if (this.tiles[i].gameObject.activeInHierarchy)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
     
 }

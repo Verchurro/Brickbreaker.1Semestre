@@ -40,6 +40,14 @@ public class Ball : MonoBehaviour
         {
             Tile.Hit();
         }
+
+        if (ball.velocity.y < 1f && ball.velocity.y > -1f && ball.velocity.x < 1f && ball.velocity.x > -1f)
+        {
+            Vector3 direction = ball.velocity.normalized;
+            direction.x = Random.Range(-5f, 5f);
+            direction.y = Random.Range(0f, 5f);
+            ball.AddForce(direction.normalized * speed * ball.velocity.magnitude);
+        }
     }
 
     void FixedUpdate()
