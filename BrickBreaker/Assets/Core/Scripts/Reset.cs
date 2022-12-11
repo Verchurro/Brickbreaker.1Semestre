@@ -7,16 +7,15 @@ public class Reset : MonoBehaviour
 {
     public void OnCollisionEnter2D(Collision2D other)
     {
-       if(gameObject.CompareTag("Ball"))
+       //if(gameObject.CompareTag("Ball"))
         { 
-          FindObjectOfType<GameManager>().Miss();
+         // FindObjectOfType<GameManager>().Miss();
 
-            Debug.Log("miss");
         }
         
-       // if (!other.gameObject.CompareTag("Ball")) return;
+       if (!other.gameObject.CompareTag("Ball")) return;
         {
-           // SceneManager.LoadScene("GameOver");
+           SceneManager.LoadScene("GameOver");
         }
 
 
