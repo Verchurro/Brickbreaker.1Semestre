@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Tiles : MonoBehaviour
 {
+  
     public SpriteRenderer spriteRenderer { get; private set; }
     public Sprite[] states;
     public int health { get; private set; }
     public int points = 100;
+    [SerializeField] GameObject powerUp;
+    [SerializeField] GameObject shrink;
 
     public void ResetTiles()
     {
@@ -29,12 +32,25 @@ public class Tiles : MonoBehaviour
 
     public void Hit()
     {
-      
         health--;
 
         if (health <= 0)
         {
-            gameObject.SetActive(false);
+            //power up drops
+            if (Random.value>0.5f)
+            {
+
+                if(Random.value>0.7f)
+                {
+                    Instantiate(powerUp, transform.position, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(shrink, transform.position, transform.rotation);
+                }
+            }
+            //destroys brick
+           gameObject.SetActive(false);
         }
         else
         {

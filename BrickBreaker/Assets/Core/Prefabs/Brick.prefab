@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eba999c2899bcb54688e01723deff07d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,6 +102,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: eba999c2899bcb54688e01723deff07d, type: 3}
   - {fileID: 21300000, guid: 77f06c5341d678543bb198377e70941c, type: 3}
   - {fileID: 21300000, guid: ef25447af733ba04e8b8f7ffc70d698c, type: 3}
+  points: 100
+  powerUp: {fileID: 1281504568674768954, guid: dd8f93fd44183694bb132d23544173d1, type: 3}
+  shrink: {fileID: 296308911040288748, guid: 8ff4fb1021b074a45aed924ebb3d5fee, type: 3}
 --- !u!61 &1421661342672231356
 BoxCollider2D:
   m_ObjectHideFlags: 0

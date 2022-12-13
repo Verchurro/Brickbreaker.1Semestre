@@ -53,6 +53,16 @@ public class Player : MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
             ball.GetComponent<Rigidbody2D>().velocity = rotation * Vector2.up * ball.GetComponent<Rigidbody2D>().velocity.magnitude;
         }
+
+        if (collision.gameObject.tag == "PowerUp")
+        {
+            transform.localScale = new Vector3(0.6f, 0.4f, 0.4f);
+        }
+
+        if (collision.gameObject.tag == "Shrink")
+        {
+            transform.localScale = new Vector3(0.2f, 0.4f, 0.4f);
+        }
     }
 
 }

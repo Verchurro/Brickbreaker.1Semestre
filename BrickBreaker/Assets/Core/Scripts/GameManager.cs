@@ -41,33 +41,7 @@ public class GameManager : MonoBehaviour
         this.player = FindObjectOfType<Player>();
         this.tiles = FindObjectsOfType<Tiles>();
     }
-    private void ResetLevel()
-    {
 
-        this.ball.ResetBall();
-        this.player.ResetPlayer();
-    }
-
-    private void Gameover()
-    {
-        SceneManager.LoadScene("GameOver");
-    }
-
-    public void Miss()
-    {
-        this.lives--;
-
-        if (lives > 0)
-        {
-            ResetLevel();
-        }
-        else
-        {
-            Gameover();
-        }
-
-        Debug.Log("Missagain");
-    }
     public void Hit(Tiles tiles)
     {
         this.score += tiles.points;
@@ -79,7 +53,6 @@ public class GameManager : MonoBehaviour
     }
        bool Cleared()
     {
-        Debug.Log("Loaded");
         for (int i = 0; i < this.tiles.Length; i++)
         {
             if (this.tiles[i].gameObject.activeInHierarchy)
