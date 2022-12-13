@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     {
         this.score = 0;
         this.lives = 3;
-        LoadLevel(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     void LoadLevel(int level)
     {
@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
     }
     private void ResetLevel()
     {
+
         this.ball.ResetBall();
         this.player.ResetPlayer();
     }
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
     }
        bool Cleared()
     {
+        Debug.Log("Loaded");
         for (int i = 0; i < this.tiles.Length; i++)
         {
             if (this.tiles[i].gameObject.activeInHierarchy)
